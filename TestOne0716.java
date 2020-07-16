@@ -6,7 +6,7 @@ package day_38;
  * 法，求出a和b点的最近公共祖先的编号。
  * 给定两个int a,b。为给定结点的编号。请返回a和b的最近公共祖先
  * 的编号。注意这里结点本身也可认为是其祖先。
- * 
+ *
  */
 public class TestOne0716 {
     public int getLCA(int a, int b) {
