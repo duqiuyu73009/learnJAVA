@@ -1,0 +1,23 @@
+create table goods(
+    goods_id int,
+    goods_name varchar(50),
+    unit_price decimal(7,2),
+    category varchar(50),
+    provider varchar(50)
+);
+
+create table customer(
+    customer_id int,
+    name varchar(20),
+    address varchar(20),
+    sex varchar(5),
+    card_id varchar(18)
+);
+
+
+create table purches(
+    order_id int,
+    customer_id int,
+    goods_id int,
+    nums int
+);
