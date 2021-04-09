@@ -15,11 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: GAOBO
- * Date: 2020-07-29
- * Time: 20:22
+ * 查找喜欢音乐（包括模糊查询和准确查询）
  */
 @WebServlet("/findLoveMusic")
 public class FindLoveMusicServlet extends HttpServlet {

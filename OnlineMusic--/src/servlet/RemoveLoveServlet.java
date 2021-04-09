@@ -14,12 +14,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: GAOBO
- * Date: 2020-07-29
- * Time: 20:35
+ * 将歌曲移除喜欢音乐列表
  */
+
 @WebServlet("/removeLoveServlet")
 public class RemoveLoveServlet extends HttpServlet {
     @Override

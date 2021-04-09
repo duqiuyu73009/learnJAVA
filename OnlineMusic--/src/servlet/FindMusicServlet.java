@@ -16,11 +16,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: GAOBO
- * Date: 2020-07-27
- * Time: 21:06
+ * 查找音乐（包括模糊查询和准确查询）
  */
 @WebServlet("/findMusic")
 public class FindMusicServlet extends HttpServlet {

@@ -17,19 +17,12 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
  * 上传音乐到服务器目录
- * User: GAOBO
- * Date: 2020-07-29
- * Time: 18:43
  */
 @WebServlet("/upload")
 public class UploadMusicServlet extends HttpServlet {
 
     private final String SAVEPATH = "D:\\3.Java\\OnlineMusic\\web\\music";
-    ///home/gaobo/apache-tomcat-8.5.51/webapps/onlineMusic/music
-    //private final String SAVEPATH = "home/gaobo/apache-tomcat-8.5.51/webapps/onlineMusic/music/";
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

@@ -82,6 +82,8 @@ public class UserDao {
         }
     }
 
+
+    //单元测试
     public static void main(String[] args) {
 //        User user = new User();
 //        user.setUsername("dqy");

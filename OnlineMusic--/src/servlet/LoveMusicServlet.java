@@ -14,11 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: GAOBO
- * Date: 2020-07-29
- * Time: 20:09
+ * 将音乐添加至喜欢列表
  */
 @WebServlet("/loveMusicServlet")
 public class LoveMusicServlet extends HttpServlet {

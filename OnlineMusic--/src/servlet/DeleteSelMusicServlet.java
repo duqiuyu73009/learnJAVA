@@ -15,11 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:批量删除
- * User: GAOBO
- * Date: 2020-07-29
- * Time: 19:53
+ *批量删除音乐
  */
 @WebServlet("/deleteSelMusicServlet")
 public class DeleteSelMusicServlet extends HttpServlet {
@@ -42,8 +38,6 @@ public class DeleteSelMusicServlet extends HttpServlet {
             int delete = musicDao.deleteMusicById(id);
 
             if(delete == 1) {
-                //File file = new File("E:\\javacode\\Java16\\OnlineMusic\\web\\"+music.getUrl()+".mp3");
-                //File file = new File("home/gaobo/apache-tomcat-8.5.51/webapps/onlineMusic/"+music.getUrl()+".mp3");
                 File file =new File("D:\\3.Java\\OnlineMusic\\web\\"+music.getUrl()+".mp3");
                 if(file.delete()) {
                     sum += delete;

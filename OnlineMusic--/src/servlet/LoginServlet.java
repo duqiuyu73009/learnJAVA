@@ -14,11 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created with IntelliJ IDEA.
- * Description:
- * User: GAOBO
- * Date: 2020-07-27
- * Time: 20:25
+ * 登录
  */
 @WebServlet("/loginServlet")
 public class LoginServlet extends HttpServlet {
